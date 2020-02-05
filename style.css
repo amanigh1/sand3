@@ -253,8 +253,9 @@ a {
 
 @media only screen and (max-width: 700px) {
        .col-md-12 h1 {
-           font-size: 100%;
+           font-size: 200%;
            margin-bottom: 0;
+           margin-top: 45px;
        }
 
     .section-title {
