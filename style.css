@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tajawal&display=swap');
+
+
+html,
+body,
+header{
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    position: relative;
+}
+
+.arabic {
+    font-family: 'Tajawal', sans-serif;
+    letter-spacing: 0rem;
+}
+
+
+
+
+body[data-aos-duration='4000'] [data-aos],
+[data-aos][data-aos][data-aos-duration='4000'] {
+    transition-duration: 4000ms;
+}
+
+
+
+
+
+
+.navbar {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.8rem;
+    letter-spacing: .1rem;
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+.section-title {
+    font-size: 38px;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 0 20px;
+}
+
+#required, .bg-gray {
+    background-color: #ebebeb;
+}
+
+.links {
+    /*border: 1px solid #1d73be;*/
+    background-color: #ebebeb;
+    /*border-radius: 15px;*/
+}
+
+
+a {
+    cursor: pointer;
+}
+
+.box {
+    text-align: center;
+}
+
+.card {
+    position: relative;
+    height: 176px;
+    background-color: #ebebeb;
+}
+
+.card-footer{
+    background-color: transparent;
+    border-top: none;
+    margin-top: 0;
+    padding: 30px;
+}
+
+.card-body{
+    padding-bottom: 0;
+}
+
+.card-body h6{
+    margin-bottom: 0;
+}
+#required p {
+    color: #64686d;
+}
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.top-nav-collapse {
+    background-color: black;
+}
+
+.navbar .navbar-brand img {
+    height: 3rem;
+    cursor: pointer;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+    padding-top: .8rem;
+}
+
+#myNav .navbar-nav .nav-item .nav-link:hover {
+    color: #4285f4;
+}
+
+#myNav .navbar-nav .nav-item .nav-link.active {
+    color: #4285f4;
+}
+
+.carousel .carousel-control-next-icon, .carousel .carousel-control-prev-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.hr-75 {
+    width: 75%;
+}
+
+.hr-50 {
+    width: 50%;
+}
+
+.parallax {
+    background: url(b1.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 25%;
+}
+
+.parallax1 {
+    background: url(building.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 40%;
+}
+
+.parallax2 {
+    background: url(b2.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    height: 40%;
+}
+
+#info {
+    background-color: #ffd626;
+}
+
+#bg-img-1 {
+    background-image: url(men.jpg);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#bg-img-2 {
+    background-image: url(hat.jpg);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.padding {
+    padding: 70px 0;
+}
+
+.small img {
+    width: 100%
+}
+
+
+
+.arrow {
+    text-align: center;
+    margin: 8% 0;
+}
+
+.bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+#carousel-example-2 {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.icons .fa, .icons .fas, .yel-color {
+    color: #1d73be;
+}
+
+.tab-content div h3 {
+    background-color: #ffd626;
+    padding: 5px;
+    width: 70%
+}
+
+.nav-tabs .nav-link {
+    color: black;
+}
+
+@media only screen and (max-width: 700px) {
+       .col-md-12 h1 {
+           font-size: 100%;
+           margin-bottom: 0;
+       }
+
+    .section-title {
+        font-size: 28px;
+    }
+
+    .navbar {
+        background: rgba(0,0,0,.8);
+    }
+}
+
+
